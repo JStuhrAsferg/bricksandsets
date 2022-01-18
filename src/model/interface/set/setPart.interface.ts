@@ -1,6 +1,6 @@
 import { part } from "./part.interface";
 
-export interface setPart{
+export interface SetPart{
     part: part;
     quantity: number;
 }

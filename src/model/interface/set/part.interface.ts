@@ -1,5 +1,5 @@
 export interface part{
-    designId: String;
+    designID: string;
     material: number;
     partType: String;
 }

@@ -1,8 +1,8 @@
-import { setPart } from "./setPart.interface";
+import { SetPart } from "./setPart.interface";
 
-export interface set{
+export interface LegoSet{
     id:string;
     name: string;
     setNumber: string;
-    pieces: setPart[];
+    pieces: Array<SetPart>;
 }
